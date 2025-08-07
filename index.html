@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header id="cabecera">
+        <a href="https://www.instagram.com/alan_techera7/"> <img src="fotomia.jpg" alt="mifoto" id="logo" width="130px" height="130px" style="border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border: 2px solid darkslategray; float: left; margin-right: 100px; max-width: 130px;">
+            </a>
+        <h1>Bienvenidos a mi página personal</h1>
+</header>
+    
+    <nav class="menu-navegacion">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="sobre-mi" class="seccion-destacada">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Alan Techera. Actualmente estoy aprendiendo desarrollo web y esta es mi primera página personal.</p>
+        </section>
+        
+        <section id="experiencia">
+            <h2>Mi experiencia</h2>
+            <div class="experiencia-item">
+                <h3>Estudiante de desarrollo web</h3>
+                <p>2025 - Actualidad</p>
+                <p>He estado aprendiendo HTML, CSS y JavaScript durante las últimas semanas.</p>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Otros estudios</h3>
+                <p>2018 - 2020 Bachillerato de Robotica y Telecomunicaciones</p>
+                <p>Actualmente trabajo en el orden público.</p>
+            </div>
+        </section>
+        
+        <section id="habilidades" class="seccion-destacada">
+            <h2>Mis habilidades</h2>
+            <ul>
+                <li>HTML (básico)</li>
+                <li>CSS (básico)</li>
+                <li>Diseño web</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer id="pie-pagina">
+        <section id="comentarios" class="seccion-comentarios">
+          <h2>Deja tu comentario</h2>
+    
+    <form id="formulario-comentario" class="formulario">
+        <div class="campo-formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        
+        
+        <div class="campo-formulario">
+            <label for="mensaje">Comentario:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="boton-enviar">Enviar Comentario</button>
+    </form>
+         <p>© 2025 - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
